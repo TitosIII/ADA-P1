@@ -23,6 +23,7 @@ int main(){
     return 1;
 }
 
+
 void mainAlgorythm(int array [], int n){
     int i, j;
 
