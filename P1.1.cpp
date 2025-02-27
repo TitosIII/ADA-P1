@@ -51,3 +51,20 @@ void generateRandomArray(int array[], int n){
         array[i] = rand() % (3 * n);
     }
 }
+
+void generateBestCaseArray(int array[], int n){
+    int i;
+    for(i = 0; i < n; i++){
+        array[i] = rand() % (3 * n);
+    }
+
+    array[0] = rand() % (3 * n);
+    array[n/2 - 1] = array[0];
+}
+
+void generateWorstCaseArray(int array[], int n){
+    int i;
+    for(i = 0; i < n; i++){
+        array[i] = 3 * i;
+    }
+}

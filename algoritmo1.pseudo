@@ -2,4 +2,5 @@ funcion(A[0,...,n-1])
     for i = 0 upto n/2 - 1
         for j = n/2 upto n-1
             if A[i] == A[j]
-                return 
+                return A[i]
+    return -1
